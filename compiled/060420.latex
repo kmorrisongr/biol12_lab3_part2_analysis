@@ -1,0 +1,366 @@
+\documentclass{beamer}
+
+\usepackage{minted}
+\usepackage{animate}
+
+\title{Student Performance on BIOL12 \\ Lab Module 3, Part 2}
+\subtitle{\vspace{-4ex}}
+\author{Kyle Morrison \\ 06/04/20}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}
+	\frametitle{Methodology}
+	\begin{enumerate}
+		\item Aggregate all usable student data (n=82).
+		\item Plot the average counts (with standard deviations) vs cell cycle phase for each image (50 bar charts!).
+		\item Plot overall average counts (with standard deviations) vs cell cycle phase.
+		\item Plot average residual magnitude (how far off the answer key were the students?) vs image number for each cell cycle phase.
+		\item Examine images students were the most off on.
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Overall Average Counts (All Phases)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Yellow Line - Answer Key values.
+					\item Students were more conservative in identifying Interphase.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.43]{images/avg_vs_image.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Overall Average Counts (Mitotic Phases)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Yellow Line - Answer Key values.
+					\item Students didn't get worse as the assignment went on (cool!).
+					\item Prophase and Prometaphase have the most false positives.
+					\item Metaphase and Prometaphase are often confused (compare averages around Image 30).
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.43]{images/avg_vs_image_mito.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Overall Residual Magnitude (All Phases)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Again, lots of variability in Interphase, particularly at Image 20 (more on this later).
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.43]{images/avg_resmags_vs_image.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Overall Residual Magnitude (Mitotic Phases)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Unsurprisingly, Prophase has the largest standard deviations.
+					\item Anaphase is the phase the students did the best on.
+					\item 4 bars around Image 15 are almost identical for Prometaphase and Metaphase, further evidence students are mixing them up (more on this later).
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.43]{images/avg_resmags_vs_image_mito.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Interphase (Image 20)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looks like it might've given the students trouble just because there are a LOT of cells in view.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.23]{images/image_20.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Interphase (Image 20)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looks like it might've given the students trouble just because there are a LOT of cells in view.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.35]{images/image_20_bars.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Prophase (Image 16)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item We missed identifying the Prophase on the right, and the students might have picked up on this one, missed it, identified the Prometaphase as Prophase, or some combination.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.23]{images/image_16.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Prophase (Image 16)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looks more like misclassification based on the raw data, given both vary a lot here.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.35]{images/image_16_bars.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Prometaphase (Image 17)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item The key says Metaphase, but this looks like Prometaphase, which is presumably what the students said.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.23]{images/image_17.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Prometaphase (Image 17)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looking at the raw data, it's not clear what happened.\ Perhaps Anaphase and Telophase mixups combined with Prophase/\\Prometaphase/\\Metaphase mixups?
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.35]{images/image_17_bars.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Metaphase (Image 37)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item The key says Metaphase, but this looks like Prometaphase, which is presumably what the students said.\ The middle cell does look like it could be late prophase, though, with more like two yellow blobs than one.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.23]{images/image_37.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Metaphase (Image 37)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looks like the students called Prometaphase and Prophase a lot, which matches what the image looks like. Also some mixups of Anaphase/Telophase for good measure.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.35]{images/image_37_bars.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Anaphase (Image 11)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looks like a classic case of ``Anaphase or Telophase?''
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.23]{images/image_11.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Anaphase (Image 11)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Yup.
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.35]{images/image_11_bars.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Telophase (Image 14)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Looks like a classic case of ``Anaphase or Telophase?''
+					\item Perhaps the cell on the far right that has a bright yellow spot is prophase-like?
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.23]{images/image_14.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hardest Images: Telophase (Image 14)}
+	\small
+	\begin{columns}[T]
+		\begin{column}{0.35\textwidth}
+			\begin{block}{}
+				\begin{itemize}
+					\item Yup.
+					\item The data supports the idea that the students thought at least something in here was prophase (the answer key disagrees).
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.65\textwidth}
+			\vspace{-2.5ex}
+			\begin{block}{}
+				\includegraphics[scale=0.35]{images/image_14_bars.pdf}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Overall Results}
+	\begin{itemize}
+		\item Students were more conservative in identifying Interphase.
+		\item By difference from the answer key (residual magnitude), visual inspection, and my experience grading, the order of rising difficulty: \\
+			Anaphase, Telophase, Metaphase, Prometaphase, Prophase.
+		\item Interphase was ``technically'' the most difficult, but I'd chalk this up to being more stringent with counting than to misclassifying Interphase as, say, Prophase.
+	\end{itemize}
+\end{frame}
+
+\end{document}
