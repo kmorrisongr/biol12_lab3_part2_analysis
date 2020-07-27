@@ -6,16 +6,16 @@ For a more formal version, see ![the PDF](compiled/060420.pdf).
 
 ### Refresher: Stages of Mitosis
 
-![image](images/mitosis.jpg)
+![image](compiled/images/mitosis.jpg)
 
 Retrieved from https://bitesizebio.com. Species unknown, but illustrates
 the point.
 
 ### Lab Module 3 - Using the Allen Insitute 3D Cell Viewer
 
-![image](images/cell-viewer.png)
+![image](compiled/images/cell-viewer.png)
 
--   Across 50 images, tally hIPSCs in Interphase and in each stage of
+-   Across 50 compiled/images, tally hIPSCs in Interphase and in each stage of
     mitosis.
 
 -   Don't count cells not fully in view.
@@ -24,7 +24,7 @@ the point.
 
 ### Lab Module 3 - Using the Allen Insitute 3D Cell Viewer
 
-![image](images/datasheet.png)
+![image](compiled/images/datasheet.png)
 
 ### Analysis Methodology
 
@@ -39,7 +39,7 @@ the point.
 4.  Plot average residual magnitude (how far off the answer key were the
     students?) vs image number for each cell cycle phase.
 
-5.  Examine images students were the most off on.
+5.  Examine compiled/images students were the most off on.
 
 ### Overall Average Counts (All Phases)
 
@@ -47,7 +47,7 @@ the point.
 
 -   Students were more conservative in identifying Interphase.
 
-![image](images/avg_vs_image.pdf)
+![image](compiled/images/avg_vs_image.pdf)
 
 ### Overall Average Counts (Mitotic Phases)
 
@@ -60,14 +60,14 @@ the point.
 -   Metaphase and Prometaphase are often confused (compare averages
     around Image 30).
 
-![image](images/avg_vs_image_mito.pdf)
+![image](compiled/images/avg_vs_image_mito.pdf)
 
 ### Overall Residual Magnitude (All Phases)
 
 -   Again, lots of variability in Interphase, particularly at Image 20
     (more on this later).
 
-![image](images/avg_resmags_vs_image.pdf)
+![image](compiled/images/avg_resmags_vs_image.pdf)
 
 ### Overall Residual Magnitude (Mitotic Phases)
 
@@ -80,7 +80,7 @@ the point.
     this later).
 
 
-![image](images/avg_resmags_vs_image_mito.pdf)
+![image](compiled/images/avg_resmags_vs_image_mito.pdf)
 
 ### Hardest Images: Interphase (Image 20)
 
@@ -88,7 +88,7 @@ the point.
     are a LOT of cells in view.
 
 
-![image](images/image_20.png)
+![image](compiled/images/image_20.png)
 
 ### Hardest Images: Interphase (Image 20)
 
@@ -96,7 +96,7 @@ the point.
     are a LOT of cells in view.
 
 
-![image](images/image_20_bars.pdf)
+![image](compiled/images/image_20_bars.pdf)
 
 ### Hardest Images: Prophase (Image 16)
 
@@ -105,7 +105,7 @@ the point.
     Prometaphase as Prophase, or some combination.
 
 
-![image](images/image_16.png)
+![image](compiled/images/image_16.png)
 
 ### Hardest Images: Prophase (Image 16)
 
@@ -113,7 +113,7 @@ the point.
     vary a lot here.
 
 
-![image](images/image_16_bars.pdf)
+![image](compiled/images/image_16_bars.pdf)
 
 ### Hardest Images: Prometaphase (Image 17)
 
@@ -121,7 +121,7 @@ the point.
     which is presumably what the students said.
 
 
-![image](images/image_17.png)
+![image](compiled/images/image_17.png)
 
 ### Hardest Images: Prometaphase (Image 17)
 
@@ -131,7 +131,7 @@ the point.
     Metaphase mixups?
 
 
-![image](images/image_17_bars.pdf)
+![image](compiled/images/image_17_bars.pdf)
 
 ### Hardest Images: Metaphase (Image 37)
 
@@ -141,7 +141,7 @@ the point.
     yellow blobs than one.
 
 
-![image](images/image_37.png)
+![image](compiled/images/image_37.png)
 
 ### Hardest Images: Metaphase (Image 37)
 
@@ -150,21 +150,21 @@ the point.
     Anaphase/Telophase for good measure.
 
 
-![image](images/image_37_bars.pdf)
+![image](compiled/images/image_37_bars.pdf)
 
 ### Hardest Images: Anaphase (Image 11)
 
 -   Looks like a classic case of "Anaphase or Telophase?"
 
 
-![image](images/image_11.png)
+![image](compiled/images/image_11.png)
 
 ### Hardest Images: Anaphase (Image 11)
 
 -   Yup.
 
 
-![image](images/image_11_bars.pdf)
+![image](compiled/images/image_11_bars.pdf)
 
 ### Hardest Images: Telophase (Image 14)
 
@@ -174,7 +174,7 @@ the point.
     prophase-like?
 
 
-![image](images/image_14.png)
+![image](compiled/images/image_14.png)
 
 ### Hardest Images: Telophase (Image 14)
 
@@ -183,7 +183,7 @@ the point.
 -   The data supports the idea that the students thought at least
     something in here was prophase (the answer key disagrees).
 
-![image](images/image_14_bars.pdf)
+![image](compiled/images/image_14_bars.pdf)
 
 ### Overall Results
 
@@ -199,4 +199,4 @@ the point.
     Interphase as, say, Prophase.
 
 -   Even lab staff, experienced and new, can go back and forth on
-    "proper" labeling. Real images != diagrams.
+    "proper" labeling. Real compiled/images != diagrams.
