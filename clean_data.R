@@ -29,6 +29,7 @@ for (i in 1:length(xlsx_files)){
 		data = data[1:49,]
 	}
 
+	# Lexicographical ordering
 	if (i < 10){
 		s = paste('0', i, sep='')
 

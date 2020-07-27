@@ -5,7 +5,7 @@
 
 \title{Student Performance on BIOL12 \\ Lab Module 3, Part 2}
 \subtitle{\vspace{-4ex}}
-\author{Kyle Morrison \\ 06/04/20}
+\author{Kyle Morrison \\ 06/22/20}
 \date{}
 
 \begin{document}
@@ -15,9 +15,32 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Methodology}
+	\frametitle{Refresher:\ Stages of Mitosis}
+	\begin{center} \includegraphics[scale=0.45]{images/mitosis.jpg} \end{center}
+	\begin{flushright} \tiny Retrieved from https://bitesizebio.com. Species unknown, but illustrates the point. \normalsize \end{flushright}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Lab Module 3 - Using the Allen Insitute 3D Cell Viewer}
+	\begin{center} \includegraphics[scale=0.22]{images/cell-viewer.png} \end{center}
+	\vspace{-2ex}
+	\begin{itemize}
+		\item Across 50 images, tally hIPSCs in Interphase and in each stage of mitosis.
+		\item Don't count cells not fully in view.
+		\item Do count cells in telophase as \textit{one} cell.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Lab Module 3 - Using the Allen Insitute 3D Cell Viewer}
+	\vspace{-10ex}
+	\begin{center} \includegraphics[scale=0.18]{images/datasheet.png} \end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Analysis Methodology}
 	\begin{enumerate}
-		\item Aggregate all usable student data (n=82).
+		\item Aggregate all usable student data ($n = 82$).
 		\item Plot the average counts (with standard deviations) vs cell cycle phase for each image (50 bar charts!).
 		\item Plot overall average counts (with standard deviations) vs cell cycle phase.
 		\item Plot average residual magnitude (how far off the answer key were the students?) vs image number for each cell cycle phase.
@@ -158,7 +181,7 @@
 		\begin{column}{0.35\textwidth}
 			\begin{block}{}
 				\begin{itemize}
-					\item We missed identifying the Prophase on the right, and the students might have picked up on this one, missed it, identified the Prometaphase as Prophase, or some combination.
+					\item The answer key missed identifying the Prophase on the right, and the students might have picked up on this one, missed it, identified the Prometaphase as Prophase, or some combination.
 				\end{itemize}
 			\end{block}
 		\end{column}
@@ -198,7 +221,7 @@
 		\begin{column}{0.35\textwidth}
 			\begin{block}{}
 				\begin{itemize}
-					\item The key says Metaphase, but this looks like Prometaphase, which is presumably what the students said.
+					\item The answer key says Metaphase, but this looks like Prometaphase, which is presumably what the students said.
 				\end{itemize}
 			\end{block}
 		\end{column}
@@ -238,7 +261,7 @@
 		\begin{column}{0.35\textwidth}
 			\begin{block}{}
 				\begin{itemize}
-					\item The key says Metaphase, but this looks like Prometaphase, which is presumably what the students said.\ The middle cell does look like it could be late prophase, though, with more like two yellow blobs than one.
+					\item The answer key says Metaphase, but this looks like Prometaphase, which is presumably what the students said.\ The middle cell does look like it could be late prophase, though, with more like two yellow blobs than one.
 				\end{itemize}
 			\end{block}
 		\end{column}
@@ -360,6 +383,7 @@
 		\item By difference from the answer key (residual magnitude), visual inspection, and my experience grading, the order of rising difficulty: \\
 			Anaphase, Telophase, Metaphase, Prometaphase, Prophase.
 		\item Interphase was ``technically'' the most difficult, but I'd chalk this up to being more stringent with counting than to misclassifying Interphase as, say, Prophase.
+		\item Even lab staff, experienced and new, can go back and forth on ``proper'' labeling.\ Real images $\ne$ diagrams.
 	\end{itemize}
 \end{frame}
 
