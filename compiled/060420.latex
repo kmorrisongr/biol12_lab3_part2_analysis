@@ -63,7 +63,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.43]{images/avg_vs_image.pdf}
+				\includegraphics[scale=0.43]{images/avg_vs_image.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -86,7 +86,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.43]{images/avg_vs_image_mito.pdf}
+				\includegraphics[scale=0.43]{images/avg_vs_image_mito.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -106,7 +106,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.43]{images/avg_resmags_vs_image.pdf}
+				\includegraphics[scale=0.43]{images/avg_resmags_vs_image.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -128,7 +128,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.43]{images/avg_resmags_vs_image_mito.pdf}
+				\includegraphics[scale=0.43]{images/avg_resmags_vs_image_mito.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -168,7 +168,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.35]{images/image_20_bars.pdf}
+				\includegraphics[scale=0.35]{images/image_20_bars.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -208,7 +208,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.35]{images/image_16_bars.pdf}
+				\includegraphics[scale=0.35]{images/image_16_bars.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -248,7 +248,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.35]{images/image_17_bars.pdf}
+				\includegraphics[scale=0.35]{images/image_17_bars.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -288,7 +288,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.35]{images/image_37_bars.pdf}
+				\includegraphics[scale=0.35]{images/image_37_bars.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -328,7 +328,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.35]{images/image_11_bars.pdf}
+				\includegraphics[scale=0.35]{images/image_11_bars.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}
@@ -370,7 +370,7 @@
 		\begin{column}{0.65\textwidth}
 			\vspace{-2.5ex}
 			\begin{block}{}
-				\includegraphics[scale=0.35]{images/image_14_bars.pdf}
+				\includegraphics[scale=0.35]{images/image_14_bars.jpg}
 			\end{block}
 		\end{column}
 	\end{columns}

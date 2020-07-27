@@ -47,7 +47,7 @@ the point.
 
 -   Students were more conservative in identifying Interphase.
 
-![image](compiled/images/avg_vs_image.pdf)
+![image](compiled/images/avg_vs_image.jpg)
 
 ### Overall Average Counts (Mitotic Phases)
 
@@ -60,14 +60,14 @@ the point.
 -   Metaphase and Prometaphase are often confused (compare averages
     around Image 30).
 
-![image](compiled/images/avg_vs_image_mito.pdf)
+![image](compiled/images/avg_vs_image_mito.jpg)
 
 ### Overall Residual Magnitude (All Phases)
 
 -   Again, lots of variability in Interphase, particularly at Image 20
     (more on this later).
 
-![image](compiled/images/avg_resmags_vs_image.pdf)
+![image](compiled/images/avg_resmags_vs_image.jpg)
 
 ### Overall Residual Magnitude (Mitotic Phases)
 
@@ -80,7 +80,7 @@ the point.
     this later).
 
 
-![image](compiled/images/avg_resmags_vs_image_mito.pdf)
+![image](compiled/images/avg_resmags_vs_image_mito.jpg)
 
 ### Hardest Images: Interphase (Image 20)
 
@@ -96,7 +96,7 @@ the point.
     are a LOT of cells in view.
 
 
-![image](compiled/images/image_20_bars.pdf)
+![image](compiled/images/image_20_bars.jpg)
 
 ### Hardest Images: Prophase (Image 16)
 
@@ -113,7 +113,7 @@ the point.
     vary a lot here.
 
 
-![image](compiled/images/image_16_bars.pdf)
+![image](compiled/images/image_16_bars.jpg)
 
 ### Hardest Images: Prometaphase (Image 17)
 
@@ -131,7 +131,7 @@ the point.
     Metaphase mixups?
 
 
-![image](compiled/images/image_17_bars.pdf)
+![image](compiled/images/image_17_bars.jpg)
 
 ### Hardest Images: Metaphase (Image 37)
 
@@ -150,7 +150,7 @@ the point.
     Anaphase/Telophase for good measure.
 
 
-![image](compiled/images/image_37_bars.pdf)
+![image](compiled/images/image_37_bars.jpg)
 
 ### Hardest Images: Anaphase (Image 11)
 
@@ -164,7 +164,7 @@ the point.
 -   Yup.
 
 
-![image](compiled/images/image_11_bars.pdf)
+![image](compiled/images/image_11_bars.jpg)
 
 ### Hardest Images: Telophase (Image 14)
 
@@ -183,7 +183,7 @@ the point.
 -   The data supports the idea that the students thought at least
     something in here was prophase (the answer key disagrees).
 
-![image](compiled/images/image_14_bars.pdf)
+![image](compiled/images/image_14_bars.jpg)
 
 ### Overall Results
 
